@@ -29,23 +29,9 @@ oknoglowne::~oknoglowne()
     delete ui;
 }
 
-void oknoglowne::on_pushButton_zupy_clicked()
-{
-    hide();
-    Zupy= new zupy(this);
-    Zupy->show();
-}
-
 void oknoglowne::on_pushButton_dania_clicked()
 {
     hide();
     Dania= new dania(this);
     Dania->show();
-}
-
-void oknoglowne::on_pushButton_desery_clicked()
-{
-    hide();
-    Desery= new desery(this);
-    Desery->show();
 }

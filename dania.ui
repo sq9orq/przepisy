@@ -14,17 +14,176 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QLabel" name="label">
+   <widget class="QLabel" name="label_schabowe">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
     <property name="geometry">
      <rect>
-      <x>230</x>
-      <y>200</y>
-      <width>52</width>
-      <height>20</height>
+      <x>50</x>
+      <y>50</y>
+      <width>200</width>
+      <height>200</height>
      </rect>
     </property>
     <property name="text">
-     <string>Dania</string>
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_nalesniki">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>310</y>
+      <width>200</width>
+      <height>200</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_mielone">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>50</y>
+      <width>200</width>
+      <height>200</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_spagetti">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>50</y>
+      <width>200</width>
+      <height>200</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_pierogi">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>310</y>
+      <width>200</width>
+      <height>200</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_placki">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>310</y>
+      <width>200</width>
+      <height>200</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_mielone">
+    <property name="geometry">
+     <rect>
+      <x>347</x>
+      <y>260</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Kotlet mielony</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_schabowe">
+    <property name="geometry">
+     <rect>
+      <x>87</x>
+      <y>260</y>
+      <width>131</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Kotlet schabowy</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_spagetti">
+    <property name="geometry">
+     <rect>
+      <x>587</x>
+      <y>260</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Spagetti</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_nalesniki">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>520</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Naleśniki</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_pierogi">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>520</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Pierogi</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_placki">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>520</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Placki </string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_powrot">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>0</y>
+      <width>108</width>
+      <height>36</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Powrot</string>
     </property>
    </widget>
   </widget>

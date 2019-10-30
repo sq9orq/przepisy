@@ -17,25 +17,19 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
     dania.cpp \
-    desery.cpp \
     main.cpp \
     logowanie.cpp \
-    oknoglowne.cpp \
-    zupy.cpp
+    oknoglowne.cpp
 
 HEADERS += \
     dania.h \
-    desery.h \
     logowanie.h \
-    oknoglowne.h \
-    zupy.h
+    oknoglowne.h
 
 FORMS += \
     dania.ui \
-    desery.ui \
     logowanie.ui \
-    oknoglowne.ui \
-    zupy.ui
+    oknoglowne.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

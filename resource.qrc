@@ -4,5 +4,11 @@
         <file>img/deser.jpg</file>
         <file>img/kucharz.gif</file>
         <file>img/zupa.jpg</file>
+        <file>img/mielone.png</file>
+        <file>img/pierogi.png</file>
+        <file>img/placki.png</file>
+        <file>img/schabowe.png</file>
+        <file>img/spagetti.png</file>
+        <file>img/nalesniki.png</file>
     </qresource>
 </RCC>

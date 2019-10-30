@@ -8,10 +8,10 @@ logowanie::logowanie(QWidget *parent)
     , ui(new Ui::logowanie)
 {
     ui->setupUi(this);
-    QPixmap pix(":/resource/img/kucharz.gif");
+    QPixmap pix100(":/img/img/kucharz.gif");
     int w = ui->label_kucharz->width();
     int h = ui->label_kucharz->height();
-    ui->label_kucharz->setPixmap(pix.scaled(w,h,Qt::KeepAspectRatio));
+    ui->label_kucharz->setPixmap(pix100.scaled(w,h,Qt::KeepAspectRatio));
 }
 
 logowanie::~logowanie()
