@@ -3,6 +3,7 @@
 #include "QMessageBox"
 #include "QPixmap"
 
+
 logowanie::logowanie(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::logowanie)
@@ -35,3 +36,8 @@ void logowanie::on_pushButton_zaloguj_clicked()
         QMessageBox::warning(this, "zaloguj", "Spróbuj jeszcze raz");
     }
 }
+
+void logowanie::keyPressEvent(QKeyEvent *pe)
+{
+if(pe->key() == Qt::Key_Return) logowanie::on_pushButton_zaloguj_clicked();
+};

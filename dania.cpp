@@ -35,3 +35,12 @@ dania::~dania()
     delete ui;
 }
 
+
+void dania::on_pushButton_powrot_clicked()
+{
+    hide();
+    ((QMainWindow*)this->parent())->show();
+
+ //   Oknoglowne= new oknoglowne(this);
+ //   Oknoglowne->show();
+}

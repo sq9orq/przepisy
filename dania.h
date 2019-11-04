@@ -2,6 +2,7 @@
 #define DANIA_H
 
 #include <QMainWindow>
+//#include <oknoglowne.h>
 
 
 namespace Ui {
@@ -21,6 +22,8 @@ private slots:
 
 private:
     Ui::dania *ui;
+//    oknoglowne *Oknoglowne;
+
 
 };
 
