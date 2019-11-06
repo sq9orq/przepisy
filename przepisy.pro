@@ -19,17 +19,20 @@ SOURCES += \
     dania.cpp \
     main.cpp \
     logowanie.cpp \
-    oknoglowne.cpp
+    oknoglowne.cpp \
+    placki.cpp
 
 HEADERS += \
     dania.h \
     logowanie.h \
-    oknoglowne.h
+    oknoglowne.h \
+    placki.h
 
 FORMS += \
     dania.ui \
     logowanie.ui \
-    oknoglowne.ui
+    oknoglowne.ui \
+    placki.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

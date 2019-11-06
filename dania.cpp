@@ -40,7 +40,10 @@ void dania::on_pushButton_powrot_clicked()
 {
     hide();
     ((QMainWindow*)this->parent())->show();
+}
 
- //   Oknoglowne= new oknoglowne(this);
- //   Oknoglowne->show();
+void dania::on_pushButton_placki_clicked()
+{
+    Placki= new placki(this);
+    Placki->show();
 }

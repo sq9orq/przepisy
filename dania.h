@@ -2,8 +2,7 @@
 #define DANIA_H
 
 #include <QMainWindow>
-//#include <oknoglowne.h>
-
+#include <placki.h>
 
 namespace Ui {
 class dania;
@@ -20,9 +19,11 @@ public:
 private slots:
     void on_pushButton_powrot_clicked();
 
+    void on_pushButton_placki_clicked();
+
 private:
     Ui::dania *ui;
-//    oknoglowne *Oknoglowne;
+    placki *Placki;
 
 
 };
